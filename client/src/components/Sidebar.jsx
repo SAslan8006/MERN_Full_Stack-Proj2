@@ -30,8 +30,8 @@ const Sidebar = () => {
     const addingPerson = async () => {
         const newPrompt = prompt("Yeni bir Chat Grubu Adı giriniz:");
         if (newPrompt) {
-            await api.createRoomApi({ name: newPrompt });
-            //setRooms(prev=>[...prev,data])
+            const { data } = await api.createRoomApi({ name: newPrompt });
+            setRooms(prev=>[...prev,data])
         }
     }
 
