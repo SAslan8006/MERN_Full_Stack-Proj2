@@ -6,7 +6,9 @@ MongoDb,
 TailwindCss,  
 Firebase,  
 PusherJs  
-
+.Env  
+DB_URI = mongodb+srv://KendiKullanıcınız:kendişifreiniz@cluster0.aiijvfg.mongodb.net/?retryWrites=true&w=majority   
+PORT=5000  
 
 ![image](https://user-images.githubusercontent.com/109723263/227706661-d702096e-1cf1-406c-a688-0eb05677a2ea.png)
 ![image](https://user-images.githubusercontent.com/109723263/227706682-b657dc82-7eb5-4f3c-9a55-84ddefe0d0c6.png)
